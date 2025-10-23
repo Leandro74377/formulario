@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.form-container {
+    background-color: #4CAF50;  /* Color de fondo similar al de la imagen */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+label {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.card-type input {
+    margin-right: 10px;
+}
+
+/* Botón */
+button.btn {
+    background-color: #FFD700;  /* Color dorado */
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.btn:hover {
+    background-color: #ffcc00;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 10px;
+    }
+
+    input, textarea {
+        font-size: 0.9rem;
+    }
+}
